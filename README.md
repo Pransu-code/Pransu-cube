@@ -14,9 +14,9 @@ Develop a single-page application in React and Typescript which shows a customer
 
 Attached Screenshots of implementation below :
 
-![ss1](assets/ss1.png)
+![ss2](assets/ss1.png)
 
-![ss2](assets/ss2.png)
+![ss1](assets/ss2.png)
 
 # Getting Started with Create React App
 
