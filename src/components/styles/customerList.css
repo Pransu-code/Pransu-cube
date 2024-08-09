@@ -1,0 +1,31 @@
+.customer-list-container {
+    height: 100vh; /* Adjust the height as needed */
+    overflow-y: auto; /* Enable vertical scrolling */
+    padding: 10px;
+    background-color: #f9f9f9;
+  }
+  
+  .customer-list {
+    display: flex;
+    flex-direction: column; /* Arrange items vertically */
+    gap: 10px; /* Add space between customer cards */
+  }
+  
+  .customer-card {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+    cursor: pointer;
+  }
+  
+  .customer-card.selected {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  .customer-card:hover {
+    background-color: #f1f1f1;
+  }
+  
