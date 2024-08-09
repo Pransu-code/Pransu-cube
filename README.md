@@ -1,3 +1,18 @@
+## Assignment details
+
+Asked to do the following :-
+
+Develop a single-page application in React and Typescript which shows a customer details portal with the following specifications: 
+1. The portal has a list of customers on the left side and upon clicking a card on the left the details of the customer are shown on the right side. 
+2. The customer list on the left can contain as many as 1000 entries. 
+3. The card in the list shows the name of the customer and his title. 
+4. Customer details include the customer name, title, address, and a 3x3 grid of 9 photos. 
+5. The selected card on the left is highlighted. 
+6. All the pictures in the photo grid should change every 10 seconds. Fetch the photos from any public API. 
+
+Implemented every feature successfully 
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
