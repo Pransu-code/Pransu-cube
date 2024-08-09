@@ -36,17 +36,17 @@ const CustomerDetails: React.FC<CustomerDetailsProps> = ({ customer }) => {
     // Fetching photos immediately
     fetchPhotos();
 
-    // Set interval to fetch new set of photos every 10 seconds
+    // Setting interval to fetch new set of photos every 10 seconds
     const intervalId = setInterval(fetchPhotos, 10000);
 
-    // Clear interval on component unmount
+    // Clearing  interval on component unmount
     return () => clearInterval(intervalId);
   }, [customer]);
 
   if (!customer) {
     return (
       <div className="customer-details">
-        <h1>Select a customer to view details</h1>
+        <h2>Select a customer from customer list to view details</h2>
       </div>
     );
   }
@@ -60,6 +60,7 @@ const CustomerDetails: React.FC<CustomerDetailsProps> = ({ customer }) => {
         ----------------------------Bio of the
         customer-------------------------------
       </p>
+      <p>------------NOTE : Images below changes after every 10 seconds-------------</p>
 
       {loading ? (
         <div className="loading-message">Wait, photos are loading...</div>
@@ -75,5 +76,3 @@ const CustomerDetails: React.FC<CustomerDetailsProps> = ({ customer }) => {
 };
 
 export default CustomerDetails;
-//added one more cmnt
-//added this

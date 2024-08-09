@@ -10,8 +10,13 @@ Develop a single-page application in React and Typescript which shows a customer
 5. The selected card on the left is highlighted. 
 6. All the pictures in the photo grid should change every 10 seconds. Fetch the photos from any public API. 
 
-Implemented every feature successfully 
+## Implemented every feature successfully 
 
+Attached Screenshots of implementation below :
+
+![ss1](assets/ss1.png)
+
+![ss2](assets/ss2.png)
 
 # Getting Started with Create React App
 

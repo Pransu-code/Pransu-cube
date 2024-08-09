@@ -15,7 +15,14 @@ const App: React.FC = () => {
 
   return (
     <div className="app">
-      <header className="app-header">Customer Details Portal</header>
+      <div className="top-headers">
+        <ul className="lists">
+          <li>Customer List</li>
+         <li>Customer Details</li>
+        </ul>
+      </div>
+     
+      
       <div className="app-content">
         <CustomerList
           onSelectCustomer={handleCustomerSelect}
